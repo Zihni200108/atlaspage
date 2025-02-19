@@ -1,0 +1,1055 @@
+body {
+  background-color: #f0e7f4;
+}
+
+.gabarito {
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.logo-lp {
+  width: 15%;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  z-index: 999;
+  transform: translateX(-50%);
+}
+.logo-lp img{
+  width: 100%;
+}
+
+#reseller-atlas {
+  font-family: "Philosopher", serif;
+}
+#reseller-atlas img{
+  width: 100%;
+}
+
+#reseller-atlas .hero {
+  position: relative;
+}
+
+#reseller-atlas .hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  /* Ukuran gradient */
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(255, 255, 255)
+  );
+}
+
+#reseller-atlas .hero .content {
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0%;
+  border: 2px solid #e0b176;
+  border-right: 0px !important;
+  padding: 70px;
+  color: #a666a9;
+  padding-right: 100px !important;
+}
+
+.hero h1 {
+  font-family: "Philosopher", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 78px;
+  margin: 0px !important;
+}
+
+.hero span,
+p {
+  font-size: 40px;
+}
+
+.hero p {
+  margin: 0px !important;
+  line-height: 1;
+}
+#katalog-reseller img{
+  width: 100%;
+}
+#katalog-reseller {
+  max-width: 900px;
+  margin: auto;
+}
+
+#katalog-reseller img {
+  padding: 10px;
+  border-radius: 10%;
+  max-width: 415px;
+}
+
+.carousel .thumbnail {
+  position: relative;
+}
+
+.carousel .overlay img {
+  width: 25%!important;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.slick-slider {
+  padding: 0px 50px;
+}
+
+.slick-next {
+  z-index: 999;
+  right: 90px !important;
+  top: 46% !important;
+}
+
+.slick-prev {
+  left: 60px !important;
+  z-index: 999;
+  top: 46% !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  left: 30px;
+  color: #a666a9;
+  z-index: 999;
+  font-size: 50px !important;
+}
+
+.slick-prev:after,
+.slick-next:after {
+  color: #a666a9 !important;
+  left: 30px;
+  z-index: 999;
+  font-size: 50px !important;
+}
+
+.reason {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-bottom: 250px;
+  position: relative;
+}
+
+.reason .bg-right {
+  position: absolute;
+  right: 0;
+}
+
+.reason .bg-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.reason .title {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.reason .title span {
+  font-weight: bold;
+  color: #fccd95;
+  font-family: "Gabarito", serif;
+  font-size: 124px;
+}
+
+.reason .title h1 {
+  color: #a666a9;
+  text-align: center;
+  font-family: "Philosopher", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 78px;
+  margin: 0px;
+  line-height: 0.7;
+  padding-left: 50px;
+}
+
+.reason .title p {
+  padding-top: 7%;
+  font-weight: 400 !important;
+  display: block;
+  text-align: center;
+  font-family: "Philosopher", serif;
+  font-size: 40px;
+  color: #a666a9 !important;
+  margin: 0;
+}
+
+.reason-detail {
+  padding-left: 100px;
+  max-width: 900px;
+}
+
+.reason-detail strong {
+  position: absolute;
+  left: -25px;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "Gabarito", serif !important;
+  color: #fccd95;
+}
+
+.reason-detail h3 {
+  position: relative;
+  font-family: "Philosopher", serif;
+  font-size: 30px;
+  font-weight: 500;
+  display: inline;
+  background: linear-gradient(to right, #a666a9, rgba(255, 255, 255, 0));
+  color: #fff;
+  padding: 3px 100px 3px 10px;
+}
+
+.reason-detail p {
+  font-family: "Gabarito", serif;
+  font-size: 20px;
+}
+
+#keuntungan-reseller {
+  margin-top: 100px !important;
+  color: #fff;
+  width: 90%;
+  margin: auto;
+}
+
+#keuntungan-reseller .title h1 {
+  color: #a666a9;
+  text-align: center;
+  font-family: "Philosopher", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 78px;
+  margin-top: -10px !important;
+}
+
+#keuntungan-reseller .title span {
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-family: "Philosopher", serif;
+  font-size: 40px;
+  color: #a666a9 !important;
+}
+
+#keuntungan-reseller img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+#keuntungan-reseller .content {
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10%;
+  max-width: 400px;
+}
+
+#keuntungan-reseller .benefit-2 .content {
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10% !important;
+  max-width: 400px;
+}
+
+#keuntungan-reseller h2 {
+  font-family: "Philosopher", serif;
+  font-weight: 600;
+}
+
+#keuntungan-reseller p {
+  font-family: "Gabarito", serif;
+  font-size: 26px;
+}
+
+.benefit-1 {
+  position: relative;
+  display: inline-block;
+  /* Supaya ukurannya sesuai dengan gambar */
+  border-radius: 4%;
+  /* Sesuaikan dengan border radius gambar */
+  overflow: hidden;
+  /* Agar overlay mengikuti bentuk border */
+}
+
+.benefit-1 img {
+  display: block;
+  /* Hilangkan celah putih di bawah gambar */
+  width: 100%;
+  border-radius: 20px;
+  /* Pastikan gambar ikut melengkung */
+}
+
+.benefit-1::after {
+  border-radius: 0 7% 7% 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  /* Setengah dari gambar */
+  height: 100%;
+  /* Menyesuaikan tinggi gambar */
+  background: rgba(128, 0, 128, 0.5);
+  /* Warna ungu transparan */
+}
+
+.benefit-2 {
+  position: relative;
+  display: inline-block;
+  /* Supaya ukurannya sesuai dengan gambar */
+  border-radius: 4%;
+  /* Sesuaikan dengan border radius gambar */
+  overflow: hidden;
+  /* Agar overlay mengikuti bentuk border */
+}
+
+.benefit-2 img {
+  display: block;
+  /* Hilangkan celah putih di bawah gambar */
+  width: 100%;
+  border-radius: 20px;
+  /* Pastikan gambar ikut melengkung */
+}
+
+.benefit-2::after {
+  border-radius: 7% 0 0 7%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  /* Setengah dari gambar */
+  height: 100%;
+  /* Menyesuaikan tinggi gambar */
+  background: rgba(128, 0, 128, 0.5);
+  /* Warna ungu transparan */
+}
+
+.benefit-3 {
+  position: relative;
+  display: inline-block;
+  /* Supaya ukurannya sesuai dengan gambar */
+  border-radius: 4%;
+  /* Sesuaikan dengan border radius gambar */
+  overflow: hidden;
+  /* Agar overlay mengikuti bentuk border */
+}
+
+.benefit-3 img {
+  display: block;
+  /* Hilangkan celah putih di bawah gambar */
+  width: 100%;
+  border-radius: 20px;
+  /* Pastikan gambar ikut melengkung */
+}
+
+.benefit-3::after {
+  border-radius: 0 7% 7% 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  /* Setengah dari gambar */
+  height: 100%;
+  /* Menyesuaikan tinggi gambar */
+  background: rgba(128, 0, 128, 0.5);
+  /* Warna ungu transparan */
+}
+
+.analisis-benefit {
+  position: relative;
+  max-width: 80%;
+  margin: 100px auto;
+  border: 2px solid #e0b176;
+}
+
+.img-right {
+  position: absolute;
+  right: -8%;
+  top: -8%;
+  max-width: 150px;
+}
+
+.img-left {
+  position: absolute;
+  left: -8%;
+  bottom: -8%;
+  max-width: 150px;
+}
+
+.analisis-benefit .title {
+  margin-top: 40px!important;
+}
+
+.analisis-benefit h3 {
+  color: #a666a9;
+  text-align: center;
+  font-family: "Philosopher", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 78px;
+  margin-top: -10px !important;
+}
+
+.analisis-benefit p {
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-family: "Philosopher", serif !important;
+  font-size: 40px;
+  color: #a666a9 !important;
+}
+
+.rincian-benefit {
+  font-family: "Gabarito", serif;
+  color: #a666a9 !important;
+}
+
+.rincian-benefit ul {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.rincian-benefit ul li {
+  padding: 5px;
+  border-bottom: 1px solid #a666a9;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.estimasi-benefit {
+  margin: 50px auto 0px auto;
+  max-width: 500px;
+}
+
+.estimasi-benefit span {
+  left: 5px;
+  top: -20px;
+  position: absolute;
+  font-family: "Gabarito", serif;
+  color: #fff;
+  background-color: #a666a9;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+.biaya {
+  position: relative;
+  padding: 20px 0px;
+  margin-bottom: 50px;
+  background-color: #e4d4e9;
+}
+
+.biaya p {
+  font-family: "Gabarito", serif !important;
+  font-weight: bold !important;
+  font-size: 30px;
+}
+
+#video-katalog-reseller {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+#keuntungan-reseller .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-size: 170px;
+  font-weight: bold;
+  color: rgb(146 90 149);
+  /* Warna ungu angka */
+  font-family: "Gabarito", serif;
+  text-shadow: 7px 6px 0 white;
+}
+
+#join-reseller {
+  background-color: #a666a9;
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  border-radius: 50px;
+  margin-bottom: 100px;
+}
+
+#join-reseller img{
+  width: 100%;
+}
+
+#join-reseller .line {
+  max-width: 40%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#join-reseller .people-overlay {
+  max-width: 32%;
+  position: absolute;
+  bottom: -6px;
+  right: 0;
+}
+
+#join-reseller h2 {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  color: #fff;
+  font-family: "Philosopher", serif;
+}
+
+#join-reseller h2 strong {
+  font-size: 76px;
+  display: block;
+  margin-top: -32px;
+  margin-left: 140px;
+}
+
+#join-reseller .step-join {
+  padding: 0px 40px;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#join-reseller .step-join .thumbnail {
+  margin-bottom: 30px;
+  position: relative;
+  max-width: 150px;
+  margin-right: 40px;
+}
+
+#join-reseller .step-join {
+  width: 100%;
+}
+
+#join-reseller .step-join img {
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+#join-reseller .content h3 {
+  color: #fff;
+  font-family: "Philosopher", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  margin: 30px 0px 5px 0px;
+}
+
+#join-reseller .content p {
+  margin: 0px;
+  color: #fff;
+  font-family: "Gabarito", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+
+#contact-reseller img{
+  width: 100%;
+}
+#contact-reseller .content {
+  margin: 200px auto 0px auto;
+  max-width: 350px;
+}
+
+#contact-reseller .content span {
+  color: #a666a9;
+  font-family: "Philosopher", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin: 0px !important;
+}
+
+#contact-reseller .content h2 {
+  color: #a666a9;
+  font-family: "Philosopher", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 72px;
+  margin: 10px 0px !important;
+}
+
+#contact-reseller .content p {
+  color: #a666a9;
+  font-family: "Gabarito", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin: 5px 0px 20px 0px !important;
+}
+
+#contact-reseller .content a {
+  background-color: #a666a9;
+  font-family: "Gabarito", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  border: none;
+  font-size: 30px;
+  padding: 5px 40px;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .logo-lp {
+    top: 5%;
+  }
+
+  #keuntungan-reseller .content {
+    right: 0%;
+  }
+
+  .hero h1 {
+    font-size: 70px;
+  }
+
+  .hero span,
+  p {
+    font-size: 32px;
+  }
+
+  #keuntungan-reseller .benefit-2 .content {
+    left: 0% !important;
+  }
+
+  #join-reseller {
+    z-index: 999;
+  }
+
+  #join-reseller .people-overlay {
+    z-index: -1;
+    max-width: 35%;
+    bottom: -6px;
+  }
+  #contact-reseller .content {
+    margin: 100px auto 0px auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #reseller-atlas .hero .content {
+    padding: 40px;
+    padding-right: 40px !important;
+  }
+  .reason .bg-right {
+    top: -5%;
+    width: 60%;
+  }
+  .reason-detail {
+    padding-left: 50px;
+    max-width: 700px;
+  }
+  .benefit-1::after {
+    border-radius: 0 12% 12% 0;
+  }
+
+  .benefit-2::after {
+    border-radius: 12% 0 0 12%;
+  }
+
+  #keuntungan-reseller {
+    padding-left: 0px;
+    margin: auto;
+  }
+  #keuntungan-reseller .title{
+    padding-left: 0px!important;
+    margin: auto;
+  }
+  #keuntungan-reseller .content {
+    max-width: 330px;
+    right: 1%;
+  }
+
+  #keuntungan-reseller .benefit-2 .content {
+    max-width: 330px;
+    left: 1% !important;
+  }
+
+  #keuntungan-reseller h2 {
+    font-size: 32px;
+  }
+
+  #keuntungan-reseller p {
+    font-size: 20px;
+  }
+
+  #keuntungan-reseller .number {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+  }
+
+  #keuntungan-reseller .benefit-2 .number {
+    position: absolute;
+    top: 15%;
+    left: 55% !important;
+  }
+
+  #keuntungan-reseller .number span {
+    font-size: 110px;
+  }
+  .img-right{
+    max-width: 100px;
+    right: -6%;
+    top: -6%;
+  }
+  .img-left{
+    max-width: 100px;
+    left: -8%;
+    bottom: -8%;
+  }
+  #join-reseller .step-join {
+    max-width: 600px;
+  }
+
+  #join-reseller h2 {
+    padding-left: 40px;
+    font-size: 32px;
+  }
+
+  #join-reseller h2 strong {
+    font-size: 53px;
+    margin-top: -22px;
+    margin-left: 112px;
+  }
+
+  #join-reseller .step-join .thumbnail {
+    max-width: 100px;
+  }
+
+  #join-reseller .content h3 {
+    font-size: 24px;
+    margin: 0px 0px 5px 0px;
+  }
+
+  #join-reseller .content p {
+    font-size: 18px;
+  }
+
+  #contact-reseller {
+    position: relative;
+  }
+
+  #contact-reseller::after{
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(128, 0, 128, 0.5);
+  }
+  #contact-reseller .content {
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+  }
+  #contact-reseller .content h2{
+    text-align: center;
+    color: #fff;
+  }
+  #contact-reseller .content p{
+    text-align: center;
+    color: #fff;
+  }
+  #contact-reseller .content span{
+    float: none;
+    color: #fff;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  #contact-reseller .content a{
+    background-color: #fff;
+    color: #a666a9;
+    display: block;
+    text-align: center;
+    max-width: 250px;
+    margin: auto;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero span,
+  p {
+    font-size: 18px;
+  }
+  .reason-detail h3{
+    font-size: 24px;
+  }
+  .reason-detail p{
+    font-size: 16px;
+  }
+  #reseller-atlas .hero .content {
+    padding: 30px;
+    padding-right: 30px !important;
+  }
+
+  .reason .bg-right {
+    display: none;
+  }
+  .reason .title p{
+    padding-top: 9%;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 32px;
+  }
+  .reason .title h1{
+    padding-left: 10px;
+    font-size: 72px;
+  }
+  .benefit-1::after {
+    border-radius: 0 13% 13% 0;
+  }
+
+  .benefit-2::after {
+    border-radius: 13% 0 0 13%;
+  }
+  #keuntungan-reseller .title h1{
+    font-size: 60px;
+  }
+  #keuntungan-reseller .title span{
+    font-size: 30px;
+  }
+  #keuntungan-reseller .content {
+    max-width: 260px;
+    right: 0%;
+  }
+
+  #keuntungan-reseller .benefit-2 .content {
+    max-width: 260px;
+  }
+
+  #keuntungan-reseller h2 {
+    font-size: 28px;
+  }
+
+  #keuntungan-reseller p {
+    font-size: 16px;
+  }
+
+  #keuntungan-reseller .number {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+  }
+
+  #keuntungan-reseller .number span {
+    font-size: 110px;
+  }
+
+  .analisis-benefit h3{
+    font-size: 64px;
+  }
+  .rincian-benefit ul li{
+    font-size: 24px;
+  }
+  #join-reseller .step-join .thumbnail {
+    max-width: 80px;
+  }
+
+  #join-reseller .content h3 {
+    font-size: 22px;
+  }
+
+  #join-reseller .content p {
+    font-size: 14px;
+  }
+
+  #join-reseller .people-overlay {
+    display: none;
+  }
+
+  #join-reseller .step-join {
+    padding: 0px 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-lp {
+    top: 3%;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero span,
+  p {
+    font-size: 14px;
+  }
+  .reason .title{
+    padding-left: 20px!important;
+  }
+  .reason .title p{
+    font-size: 24px;;
+  }
+  .reason .title h1{
+    font-size: 60px;
+  }
+  .reason-detail h3{
+    font-size: 18px;
+  }
+  .reason-detail p{
+    font-size: 14px;
+  }
+  .reason .title span{
+    font-size: 100px;
+  }
+  .reason-detail{
+    padding-left: 35px;
+    padding-right: 10px;
+  }
+  .reason{
+    margin-top: 20px;
+    padding-bottom: 100px;
+  }
+  #keuntungan-reseller .title h1{
+    font-size: 50px;
+  }
+  #keuntungan-reseller .title span {
+    font-size: 24px;
+}
+  #reseller-atlas .hero .content {
+    padding: 15px;
+    padding-right: 15px !important;
+  }
+
+  #keuntungan-reseller .content {
+    margin-top: -10px;
+    max-width: 220px;
+    right: 0%;
+  }
+
+  .benefit-1::after {
+    width: 60%;
+    border-radius: 0 18% 18% 0;
+  }
+
+  .benefit-2::after {
+    width: 60%;
+    border-radius: 18% 0 0 18%;
+  }
+
+  .benefit-3::after {
+    width: 60%;
+    border-radius: 0 18% 18% 0;
+  }
+
+  #keuntungan-reseller h2 {
+    font-size: 24px;
+  }
+
+  #keuntungan-reseller p {
+    font-size: 11px;
+  }
+
+  #keuntungan-reseller .number {
+    left: 10%;
+  }
+
+  #keuntungan-reseller .benefit-2 .number {
+    left: 92% !important;
+  }
+
+  #keuntungan-reseller .number span {
+    font-size: 80px !important;
+  }
+  .analisis-benefit{
+    padding: 0px 5px;
+  }
+  .analisis-benefit p{
+    font-size: 14px!important;
+  }
+  .analisis-benefit h3{
+    font-size: 48px;
+  }
+  .img-right{
+    top: -10%;
+  }
+  .img-left{
+    bottom: -10%;
+  }
+  .rincian-benefit ul li{
+    font-size: 20px;
+  }
+  #join-reseller {
+    padding: 25px;
+  }
+
+  #join-reseller .step-join {
+    padding: 0px;
+  }
+
+  #join-reseller h2 {
+    padding-left: 0px !important;
+    font-size: 26px;
+  }
+
+  #join-reseller h2 strong {
+    font-size: 40px;
+    margin-top: -20px;
+    margin-left: 92px;
+  }
+
+  #join-reseller .step-join .thumbnail {
+    margin-right: 25px;
+  }
+
+  #join-reseller .content h3 {
+    font-size: 20px;
+  }
+
+  #join-reseller .content p {
+    font-size: 12px;
+  }
+  #contact-reseller .content span {
+    font-size: 22px;
+  }
+  
+  #contact-reseller .content h2 {
+    font-size: 64px;
+  }
+  
+  #contact-reseller .content p {
+    font-size: 20px;
+  }
+  
+  #contact-reseller .content a {
+    max-width: 200px;
+    font-size: 24px;
+  }
+}
